@@ -36,7 +36,7 @@ const responsive = {
 const HeroImagesSlider = () => {
   return (
     <Carousel
-      // autoPlay
+      autoPlay
       additionalTransfrom={0}
       autoPlaySpeed={3000}
       centerMode={false}

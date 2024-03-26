@@ -48,7 +48,7 @@ const HeroLogosSlider = () => {
       containerClass='bg-orange py-8'
       additionalTransfrom={0}
       arrows={false}
-      // autoPlay
+      autoPlay
       autoPlaySpeed={10000}
       centerMode={false}
       className=""
