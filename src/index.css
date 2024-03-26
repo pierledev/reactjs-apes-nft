@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1,
+  h2,
+  h3,
+  header ul,
+  .about-company-name-slider,
+  .slogan,
+  .logo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    @apply text-center text-xl md:text-left md:text-6xl;
+  }
+
+  header ul {
+    @apply text-[28px] md:text-base md:font-['Montserrat'] md:font-semibold lg:text-xl;
+  }
+
+  .about-company-name-slider,
+  .slogan {
+    @apply text-xl;
+  }
+
+  .about-company-name-slider p {
+    @apply whitespace-nowrap lg:text-5xl;
+  }
+
+  .slogan {
+    @apply lg:text-[40px];
+  }
+}
+
+@layer component {
+  .team-item {
+    @apply min-[461px]:pr-4;
+  }
+
+  .logos-transition {
+    @apply transition-all ease-linear;
+  }
+}
