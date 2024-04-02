@@ -4,7 +4,7 @@ import Ape from '@assets/apes/ape-8.avif';
 const About = () => {
   return (
     <section className='text-center pt-10 md:text-left' id='about'>
-      <Container className='pb-0'>
+      <Container className='pb-0 md:pb-0 lg:pb-0 xl:pb-0 2xl:pb-0'>
         <h2>ABOUT</h2>
         <p className='my-7 max-w-xl mx-auto text-sm md:text-lg lg:text-xl md:ml-0 md:max-w-full lg:mb-12l'>
           In our core team, we have a skilled and dedicated team of world-class
